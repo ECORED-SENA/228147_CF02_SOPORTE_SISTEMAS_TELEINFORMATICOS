@@ -30,19 +30,16 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
           .bloque-texto-a__texto.p-4.mb-4.mb-lg-0
-            p Los controles de acceso autentican y autorizan a las personas a acceder a la información que pueden ver y usar. El uso indebido de privilegios es una de las principales amenazas de seguridad cibernética en la actualidad, que a menudo resulta en pérdidas costosas e incluso puede paralizar las empresas. También es uno de los vectores de ataque más populares entre los piratas informáticos, porque cuando se lleva a cabo con éxito, brinda acceso gratuito a la parte más vulnerable de una empresa, a menudo sin generar ninguna alarma hasta que el daño ya está hecho. Existen <i>software</i> que empoderan a las empresas que buscan adelantarse a este riesgo creciente con un sólido programa de administración de acceso privilegiado que garantice que ninguna vía de acceso privilegiado a los activos de misión crítica quede sin administrar, sin conocer o sin monitorear. De ahí que todo proceso parta de las siguientes preguntas base:
+            p Los controles de acceso autentican y autorizan a las personas a acceder a la información que pueden ver y usar. El uso indebido de privilegios es una de las principales amenazas de seguridad cibernética en la actualidad, que a menudo resulta en pérdidas costosas e incluso puede paralizar las empresas. También es uno de los vectores de ataque más populares entre los piratas informáticos, porque cuando se lleva a cabo con éxito, brinda acceso gratuito a la parte más vulnerable de una empresa, a menudo sin generar ninguna alarma hasta que el daño ya está hecho. Existen <i>softwares</i> que empoderan a las empresas que buscan adelantarse a este riesgo creciente con un sólido programa de administración de acceso privilegiado que garantice que ninguna vía de acceso privilegiado a los activos de misión crítica quede sin administrar, sin conocer o sin monitorear. De ahí que todo proceso parta de las siguientes preguntas base:
         .col-lg-4
           figure
             img(src='@/assets/curso/tema1/img2.svg', style="width: 340px", alt='Imágen decorativa').m-auto
-
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10          
         .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
           p.mb-0 #[b Figura 1]. Preguntas sobre la seguridad de la información  
-    
     figure.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/img3.svg', style="width: 1080px", alt='Figura que menciona las preguntas a tener en cuenta al momento de desear proteger la información.').m-auto
-    
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -55,8 +52,7 @@
             figure
               img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
           .col
-            p.mb-0 El control de acceso es un método para garantizar que los usuarios son quienes dicen ser y que tienen el acceso adecuado a los datos de la empresa. A un alto nivel, el control de acceso es una restricción selectiva del acceso a los datos. Consta de dos componentes principales: autenticación y autorización:
-
+            p.mb-0 El control de acceso es un método para garantizar que los usuarios son quienes dicen ser y que tienen el acceso adecuado a los datos de la empresa. A un alto nivel, el control de acceso es una restricción selectiva del acceso a los datos. Consta de dos componentes principales: autenticación y autorización.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         TarjetaAudio.color-primario.mb-3(
@@ -64,15 +60,12 @@
           :audio="require('@/assets/componentes/audios/Cf2_Audio.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
-
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10          
         .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
           p.mb-0 #[b Figura 2]. Autenticación y autorización de datos 
-
     figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema1/img4.svg', style="width: 1080px", alt='Infografía que representa el control de acceso que está compuesto por una autenticación y una autorización. El contenido de esta se relaciona debajo de la imagen.').m-auto
-    
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img3.png')})`}"
@@ -123,7 +116,7 @@
       .col-lg-10
         .row.align-items-center.justify-content-center
           .col-md-8.col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 Estos mercados de acceso proporcionan una forma rápida y fácil para que los ciberdelincuentes compren acceso a sistemas y organizaciones. Estos sistemas pueden usarse como <i>zombis</i> en ataques a gran escala o como punto de entrada para un ataque dirigido. Un mercado de acceso, Ultimate Anonymity Services (UAS) ofrece 35 000 credenciales con un precio de venta promedio de $6.75 por credencial, por citar ejemplo de precios de este tipo de accesos sin control.
+            p.mb-0 Estos mercados de acceso proporcionan una forma rápida y fácil para que los ciberdelincuentes compren acceso a sistemas y organizaciones. Estos sistemas pueden usarse como <i>zombis</i> en ataques a gran escala o como punto de entrada para un ataque dirigido. Un mercado de acceso, Ultimate Anonymity Services (UAS) ofrece 35 000 credenciales con un precio de venta promedio de $6.75 por credencial, por citar ejemplo de precios de este tipo de accesos sin control.
           .col-xl-auto
             figure.fig-p1
               img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
@@ -141,7 +134,6 @@
     figure.mb-5(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/EL2s26JfeBo" title="Factores de control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
     .row.bg-c5.mb-5
       .col-lg-6.bg-c4.shadow-sm.p-5.my-4(data-aos="fade-right")
         p.mb-0 Las organizaciones deben determinar el modelo de control de acceso apropiado a adoptar según el tipo y la sensibilidad de los datos que están procesando. Los modelos de acceso más antiguos incluyen control de acceso discrecional (DAC) y control de acceso obligatorio (MAC), el control de acceso basado en roles (RBAC) es el modelo más común en la actualidad, así como el modelo más reciente se conoce como control de acceso basado en atributos (ABAC). Al respecto:
@@ -192,7 +184,7 @@
             img(src='@/assets/curso/tema1/img9.png', style="width: 1200px", alt='Imágen decorativa').m-auto
           .row.justify-content-center(data-aos="fade-down")
             .col-lg-10.bg-c7.shadow-sm.p-4
-              p.mb-0 Así mismo, independientemente de cómo se defina implementar un control de acceso, este debe ser monitoreado constantemente, tanto en términos de cumplimiento de su política de seguridad corporativa como operativamente, para identificar posibles agujeros de seguridad. Se debe realizar, entonces, periódicamente una revisión de la gobernanza, el riesgo y el cumplimiento. Se necesitan escaneos de vulnerabilidad recurrentes contra cualquier aplicación que ejecute sus funciones de control de acceso y debe recopilar y monitorear registros en cada acceso para detectar violaciones de la política.
+              p.mb-0 Así mismo, independientemente de cómo se defina implementar un control de acceso, este debe ser monitoreado constantemente, tanto en términos de cumplimiento de su política de seguridad corporativa como operativamente, para identificar posibles agujeros de seguridad. Se debe realizar, entonces, periódicamente una revisión de la gobernanza, el riesgo y el cumplimiento. Se necesitan escaneos de vulnerabilidad recurrentes contra cualquier aplicación que ejecute sus funciones de control de acceso y que recopile y monitoree registros en cada acceso para detectar violaciones de la política.
           .cajon.color-acento-botones.p-4(data-aos="fade-left")
             p.mb-0 En los complejos entornos de TI de la actualidad, el control de acceso debe considerarse como una infraestructura tecnológica viva que utiliza las herramientas más sofisticadas, refleja los cambios en el entorno de trabajo, como una mayor movilidad, reconoce los cambios en los dispositivos que usamos y sus riesgos inherentes, y toma en cuenta el creciente movimiento hacia la nube.
     Separador
@@ -282,7 +274,6 @@
               img(src='@/assets/curso/tema1/img18.svg', style="width: 160px", alt='Imágen decorativa').m-auto
         p #[b Control y cumplimiento]
         p.mb-0 Aproveche varios niveles de organización en niveles o automática para almacenar los activos de datos más valiosos. Esto ayuda a administrar y almacenar datos y ayuda a las organizaciones a demostrar el cumplimiento de las regulaciones.
-
     .row.justify-content-center.align-items-center.mb-5
       .col-4.col-lg-2
         .bg-1.p-4
@@ -290,23 +281,18 @@
             .col-9.col-lg-7
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/tema1/img43.svg', alt='Imágen decorativa').img43-tm1
-          
       .col-lg-9
         .bg-2.p-4
           .row
             .col-1
             .col-11
               b.mb-0(data-aos="fade-left") Ahora bien, frente a las herramientas para el monitoreo del almacenamiento de datos contribuyen en el apoyo de la asignación de recursos más fácilmente según sea necesario. Estas herramientas también pueden:
-    
     .row.justify-content-center.align-items-center.mb-3
       .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
         p.mb-0 #[b Figura 3]. Herramientas para el monitoreo del almacenamiento
-    
     figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img20.svg', style="width: 1250px", alt='Infografía que relaciona las tareas de las herramientas y lo que estas pueden hacer. Los textos de dicha se encuentran debajo de la imagen.').m-auto
-
     p.mb-5 Cabe resaltar que existen software de administración de datos que están diseñados para ayudar a las organizaciones a monitorear la capacidad actual de almacenamiento de datos a través de un tablero centralizado, para que pueda optimizar más fácilmente las políticas de almacenamiento de datos, administrar el estado del entorno de almacenamiento y abordar aspectos clave del proceso de administración de datos. 
-
     .cajon.color-acento-botones.p-4(data-aos="fade-down")
       p.mb-0 Además, las herramientas de monitoreo de datos pueden proporcionar información crucial sobre el estado de los dispositivos de almacenamiento, el riesgo de capacidad y la detección de puntos de acceso para garantizar que se tomen las medidas correctas.
     Separador
@@ -320,9 +306,12 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La protección de una organización contra los ataques cibernéticos a veces puede parecer un juego interminable de golpes de seguridad. Tan pronto como haya asegurado una debilidad, aparece otra. Esto puede desmoralizar a cualquier organización y hacerle creer que las buenas prácticas de seguridad de la información son imposibles. Sin embargo, hay una solución, pero requiere una forma diferente de pensar. Las organizaciones deben dejar de mirar cada amenaza individual a medida que surge y, en su lugar, construir defensas que estén equipadas para manejar cualquier cosa que los ciberdelincuentes les arrojen. Hacer eso es más simple de lo que parece. Esto se debe a que, por mucho que evolucionen las tácticas de los ciberdelincuentes, tienden a seguir la misma metodología básica. Si sus medidas de seguridad tienen en cuenta las formas en que se le ataca, en lugar de formas específicas de ataque, se defenderá de manera efectiva de una variedad de ataques.
     p.mb-5(data-aos="fade-right") Aprovechar cantidades masivas de datos brinda a las empresas una ventaja competitiva y las ayuda a comprender sus estrategias de ventas/<i>marketing</i> y las necesidades de los consumidores. Sin embargo, no se puede acceder a los datos sin someterse a un procesamiento de datos. Las empresas grandes y pequeñas necesitan comprender la importancia del procesamiento de datos.
-    .row.mb-5(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c13
-        h3.mb-0 ¿Qué es el procesamiento de datos?
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img29.png" style="max-width: 60px").m-auto
+      .col
+        h3 ¿Qué es el procesamiento de datos?
     .row.align.items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -348,8 +337,8 @@
                     figure
                       img(src='@/assets/curso/tema1/img23.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                   .col-lg-8
-                    p #[b Preparación de datos]
-                    p.mb-0 Los datos recopilados entran en la etapa de preparación de datos. La preparación de datos, también conocida como “pre-procesamiento”, es la etapa en la que se limpian y organizan los datos sin procesar. Esto hace que los datos estén disponibles para etapas posteriores del procesamiento de datos. Durante la preparación, los datos sin procesar se verifican minuciosamente en busca de errores. El propósito de este paso es eliminar datos incorrectos (datos redundantes, incompletos o inexactos) y crear datos de alta calidad para una mejor inteligencia comercial.
+                    p.txt-p1 #[b Preparación de datos]
+                    p.txt-p1.mb-0 Los datos recopilados entran en la etapa de preparación de datos. La preparación de datos, también conocida como “pre-procesamiento”, es la etapa en la que se limpian y organizan los datos sin procesar. Esto hace que los datos estén disponibles para etapas posteriores del procesamiento de datos. Durante la preparación, los datos sin procesar se verifican minuciosamente en busca de errores. El propósito de este paso es eliminar datos incorrectos (datos redundantes, incompletos o inexactos) y crear datos de alta calidad para una mejor inteligencia comercial.
                 .row.align-items-center
                   .col-lg-8.mb-4.mb-lg-0
                     p #[b Entrada de datos]
@@ -362,8 +351,8 @@
                     figure
                       img(src='@/assets/curso/tema1/img25.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                   .col-lg-8
-                    p #[b Procesamiento]
-                    p.mb-0 En esta etapa, los datos ingresados en la computadora desde la etapa anterior se procesan para su interpretación. El procesamiento se realiza mediante algoritmos de aprendizaje automático, pero el proceso en sí depende de la fuente de los datos que se procesan (lagos de datos, redes sociales, dispositivos conectados, etc.) y su uso previsto (estudio de patrones publicitarios, diagnósticos médicos de dispositivos conectados, Puede diferir ligeramente según la evaluación de las necesidades del cliente, etc.).
+                    p.txt-p1 #[b Procesamiento]
+                    p.txt-p1.mb-0 En esta etapa, los datos ingresados en la computadora desde la etapa anterior se procesan para su interpretación. El procesamiento se realiza mediante algoritmos de aprendizaje automático, pero el proceso en sí depende de la fuente de los datos que se procesan (lagos de datos, redes sociales, dispositivos conectados, etc.) y su uso previsto (estudio de patrones publicitarios, diagnósticos médicos de dispositivos conectados, Puede diferir ligeramente según la evaluación de las necesidades del cliente, etc.).
                 .row.align-items-center
                   .col-lg-8.mb-4.mb-lg-0
                     p #[b Salida/interpretación de datos]
@@ -376,8 +365,8 @@
                     figure
                       img(src='@/assets/curso/tema1/img27.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                   .col-lg-8
-                    p #[b Almacenamiento de datos]
-                    p.mb-0 La etapa final del procesamiento de datos es el almacenamiento. Todos los datos procesados se almacenan para uso futuro. Parte de la información se puede usar inmediatamente, pero la mayoría se usará más tarde. Además, se requiere que los datos almacenados correctamente cumplan con las leyes de protección de datos como GDPR. Cuando los datos se almacenan correctamente, los miembros de su organización pueden acceder a ellos rápida y fácilmente según sea necesario.
+                    p.txt-p1 #[b Almacenamiento de datos]
+                    p.txt-p1.mb-0 La etapa final del procesamiento de datos es el almacenamiento. Todos los datos procesados se almacenan para uso futuro. Parte de la información se puede usar inmediatamente, pero la mayoría se usará más tarde. Además, se requiere que los datos almacenados correctamente cumplan con las leyes de protección de datos como GDPR. Cuando los datos se almacenan correctamente, los miembros de su organización pueden acceder a ellos rápida y fácilmente según sea necesario.
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.align-items-center.justify-content-center
@@ -388,7 +377,7 @@
             figure.fig-p2
               img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 La nube jugará un papel clave en el futuro del procesamiento de datos. La tecnología de la nube se basa en las prácticas actuales de procesamiento electrónico de datos para aprovechar esa conveniencia y mejorar la velocidad y la eficiencia. Con velocidades más rápidas y datos de mayor calidad, puede aprovechar más datos y extraer información más valiosa. A medida que los grandes datos se trasladan a la nube, las empresas obtienen importantes beneficios. La tecnología de nube de <i>big data</i> permite a las empresas combinar todas las plataformas en un sistema fácilmente adaptable. A medida que el <i>software</i> cambia y se actualiza (como es común en el mundo de los grandes datos), la tecnología de la nube integra a la perfección elementos antiguos y nuevos.
+            p.mb-0 La nube jugará un papel clave en el futuro del procesamiento de datos. La tecnología de la nube se basa en las prácticas actuales de procesamiento electrónico de datos para aprovechar esa conveniencia y mejorar la velocidad y la eficiencia. Con velocidades más rápidas y datos de mayor calidad, puede aprovechar más datos y extraer información más valiosa. A medida que los grandes datos se trasladan a la nube, las empresas obtienen importantes beneficios. La tecnología de nube de <i>big data</i> permite a las empresas combinar todas las plataformas en un sistema fácilmente adaptable. A medida que el <i>software</i> cambia y se actualiza (como es común en el mundo de los grandes datos), la tecnología de la nube integra a la perfección elementos antiguos y nuevos.
     .row.align-items-center.mb-3
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-acento-botones.p-4.mb-3
@@ -444,9 +433,9 @@
       .col-lg-9(data-aos="fade-left")
         TabsA.color-primario
           .tarjeta.color-acento-contenido.p-4(titulo="Procesadores Intel®<br>Xeon")
-            p.mb-0 Los procesadores Intel Xeon ofrecen la flexibilidad para hacer frente a una amplia gama de cargas de trabajo de diversas fuentes, con procesadores Intel® optimizados para tareas como la normalización de datos y la reducción de ruido para el procesamiento de IA.
+            p.mb-0 Los procesadores Intel® Xeon ofrecen la flexibilidad para hacer frente a una amplia gama de cargas de trabajo de diversas fuentes, con procesadores Intel® optimizados para tareas como la normalización de datos y la reducción de ruido para el procesamiento de IA.
           .tarjeta.color-acento-contenido.p-4(titulo="SSD Intel Optane")
-            p.mb-0 Las SSD Intel® Optan están diseñadas para ofrecer estabilidad y están construidas para optimizar el almacenamiento y el rendimiento de la memoria caché de datos. Ayuda a acelerar la transmisión y el procesamiento de datos en tiempo real mientras mantiene una alta confiabilidad del sistema.
+            p.mb-0 Las SSD Intel® Optane están diseñadas para ofrecer estabilidad y están construidas para optimizar el almacenamiento y el rendimiento de la memoria caché de datos. Ayuda a acelerar la transmisión y el procesamiento de datos en tiempo real mientras mantiene una alta confiabilidad del sistema.
           .tarjeta.color-acento-contenido.p-4(titulo="Tecnologías de código<br>abierto")
             p.mb-0 Intel ofrece una amplia gama de bibliotecas y plataformas de código abierto que aceleran el procesamiento y el análisis de datos. Esto incluye Intel® oneAPI Toolkit, Intel® oneAPI Math Kernel Library (Intel® oneMKL), Intel® oneAPI Data Analytics Library (Intel® oneDAL) y más.
           .tarjeta.color-acento-contenido.p-4(titulo="Seguridad mejorada")
@@ -465,7 +454,6 @@
         p Para mantener la disponibilidad de los activos de información, dentro de una empresa u organización, es necesario contar con copias de seguridad adecuadas de la información que se posee. El personal de administración de la información debe operar una copia de seguridad que pueda restaurarse rápidamente con el menor impacto posible en el negocio, en caso de una falla de la computadora o de la red o un error de operación del sistema. Para garantizar que los usuarios de una empresa u organización puedan usar sus computadoras personales de manera segura, se deben recomendar copias de seguridad periódicas. En las computadoras cliente, no solo se deben respaldar los archivos de documentos creados con el <i>software</i> de procesamiento de texto y el <i>software</i> de hoja de cálculo, sino también los correos electrónicos, las URL de los sitios web de uso frecuente y varias configuraciones.
         .cajon.color-acento-contenido.p-4
           p.mb-0 Los diversos tipos de información que manejan las empresas deben ser estrictamente protegidos y una forma de protegerla es a través de una copia de seguridad de sus datos. La pérdida de estos dificulta las actividades comerciales. Por ello, es esencial que aquellos que están en condiciones de proteger la información corporativa comprendan los puntos relacionados con la copia de seguridad y su respectiva gestión.
-
     .row.justify-content-center.align-items-center.mb-5
       .col-4.col-lg-2
         .bg-3.p-4
@@ -473,16 +461,12 @@
             .col-9.col-lg-7
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/tema1/img44.svg', alt='Imágen decorativa').img43-tm1
-          
       .col-lg-9
         .bg-4.p-4
           .row
             .col-1
             .col-11
               b.mb-0.text-white(data-aos="fade-left") La gestión de copias de seguridad incluye la eliminación de copias de seguridad innecesarias y la realización de comprobaciones periódicas para garantizar que las copias de seguridad se puedan utilizar. Por ello, se debe tener en cuenta lo siguiente:
-
-
-
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -541,7 +525,7 @@
       .col-lg-10
         .row.align-items-center.justify-content-center
           .col-md-8.col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 Cuando se utiliza el área de recuperación rápida para el almacenamiento de copias de seguridad, se eliminan o reducen muchas actividades de mantenimiento. Los archivos de respaldo y otros archivos se eliminan según sea necesario, mediante el mecanismo de administración de almacenamiento automático para cumplir con las demandas de almacenamiento de las operaciones en curso de la base de datos sin violar las políticas de retención. Sin embargo, debe monitorear el uso del espacio en el área de recuperación rápida para asegurarse de que sea lo suficientemente grande para almacenar copias de seguridad y otros archivos relacionados con la recuperación.
+            p.mb-0 Cuando se utiliza el área de recuperación rápida para el almacenamiento de copias de seguridad, se eliminan o reducen muchas actividades de mantenimiento. Los archivos de respaldo y otros archivos se eliminan según sea necesario, mediante el mecanismo de administración de almacenamiento automático para cumplir con las demandas de almacenamiento de las operaciones en curso de la base de datos sin violar las políticas de retención. Sin embargo, debe monitorear el uso del espacio en el área de recuperación rápida para asegurarse de que sea lo suficientemente grande para almacenar copias de seguridad y otros archivos relacionados con la recuperación.
           .col-xl-auto
             figure.fig-p1
               img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
@@ -575,12 +559,12 @@
               figure
                 img(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')
             .tarjeta.color-secundario.p-3(x="21%" y="6%" numero="1")
-              p.mb-0 Una cierta cantidad de error humano es inevitable porque son las personas, como los empleados, quienes realmente manejan los datos. Por ejemplo, el error de un empleado al operar una computadora personal puede hacer que los datos importantes se sobrescriban con otros datos o se eliminen. También es importante proporcionar una formación adecuada a los empleados para que no se produzcan errores operativos. Pero si sucede lo peor, puede restaurar con una copia de seguridad.
+              p.text-white.mb-0 Una cierta cantidad de error humano es inevitable porque son las personas, como los empleados, quienes realmente manejan los datos. Por ejemplo, el error de un empleado al operar una computadora personal puede hacer que los datos importantes se sobrescriban con otros datos o se eliminen. También es importante proporcionar una formación adecuada a los empleados para que no se produzcan errores operativos. Pero si sucede lo peor, puede restaurar con una copia de seguridad.
             .tarjeta.color-secundario.p-3(x="53%" y="8%" numero="2")
-              p.mb-0 Las empresas están rodeadas de diversas amenazas. Uno de ellos es la existencia de piratas informáticos que atacan los datos corporativos e infectan con virus las redes de las empresas y los terminales individuales. No es exagerado decir que el riesgo de piratear datos corporativos aumenta cada día que pasa. Como empresa, debe ser plenamente consciente del riesgo de piratería y preparar un sistema de defensa.
+              p.text-white.mb-0 Las empresas están rodeadas de diversas amenazas. Uno de ellos es la existencia de piratas informáticos que atacan los datos corporativos e infectan con virus las redes de las empresas y los terminales individuales. No es exagerado decir que el riesgo de piratear datos corporativos aumenta cada día que pasa. Como empresa, debe ser plenamente consciente del riesgo de piratería y preparar un sistema de defensa.
             .tarjeta.color-secundario.p-3(x="89%" y="6%" numero="3")
-              p.mb-0 Los obstáculos físicos, como fallas en discos duros o daños en los datos, representan una tercera causa de pérdida de datos. Aunque en algunos casos se pueden recuperar, a menudo estos problemas quedan sin resolver, dificultando la continuidad del negocio. Además, el robo de computadoras personales también implica una pérdida física de datos. Para prepararse ante estas situaciones, es crucial contar con copias de seguridad.
-    p.mb-5(data-aos="fade-right") Existen tres métodos para hacer una copia de seguridad: guardar en un medio de almacenamiento externo, almacenamiento en línea y almacenamiento en red:
+              p.text-white.mb-0 Los obstáculos físicos, como fallas en discos duros o daños en los datos, representan una tercera causa de pérdida de datos. Aunque en algunos casos se pueden recuperar, a menudo estos problemas quedan sin resolver, dificultando la continuidad del negocio. Además, el robo de computadoras personales también implica una pérdida física de datos. Para prepararse ante estas situaciones, es crucial contar con copias de seguridad.
+    p.mb-5(data-aos="fade-right") Existen tres métodos para hacer una copia de seguridad: guardar en un medio de almacenamiento externo, almacenamiento en línea y almacenamiento en red.
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
         .row.justify-content-center.m-1
@@ -611,7 +595,6 @@
                 figure
                   img(src='@/assets/curso/tema1/img27.png', style="width: 300px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") Por otro lado, hay dos puntos a considerar al decidir cuál de los múltiples métodos de copia de seguridad de datos es mejor para una empresa. Uno es la cantidad de datos que desea respaldar y el otro es el costo.
-
     .row.bg-c14.mb-5
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-10
@@ -630,19 +613,19 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Aclarar el propósito de la copia de seguridad")
             .col-12
-              p.mb-0 Realizar copias de seguridad sin un propósito claro dificulta su eficiencia. Es importante definir el propósito, como proteger la credibilidad de la empresa frente a pérdidas de información. Una vez definido, se puede establecer el rango y la frecuencia adecuados de respaldo. También se puede reducir el tiempo de copia al eliminar datos innecesarios.
+              p.mb-0.ms-5 Realizar copias de seguridad sin un propósito claro dificulta su eficiencia. Es importante definir el propósito, como proteger la credibilidad de la empresa frente a pérdidas de información. Una vez definido, se puede establecer el rango y la frecuencia adecuados de respaldo. También se puede reducir el tiempo de copia al eliminar datos innecesarios.
           .row(titulo="Tenga cuidado al manipular medios de almacenamiento externos")
             .col-12
-              p.mb-0 Al hacer copias de seguridad en medios externos como CD o memorias <i>flash</i>, es importante manejarlos con cuidado para evitar pérdidas. Después de respaldar los datos, guárdelos en una caja fuerte ignífuga para protegerlos de robos o incendios. Además, es necesario educar a los empleados sobre no sacar los medios de almacenamiento de la empresa.
+              p.mb-0.ms-5 Al hacer copias de seguridad en medios externos como CD o memorias <i>flash</i>, es importante manejarlos con cuidado para evitar pérdidas. Después de respaldar los datos, guárdelos en una caja fuerte ignífuga para protegerlos de robos o incendios. Además, es necesario educar a los empleados sobre no sacar los medios de almacenamiento de la empresa.
           .row(titulo="Indique a los empleados que retrocedan")
             .col-12
-              p.mb-0 Es importante garantizar que cada empleado realice copias de seguridad adecuadas. Aunque el personal de TI puede respaldar la base de datos compartida, cada empleado debe respaldar sus propios datos en sus computadoras. Se deben proporcionar instrucciones precisas sobre el método y el destino de almacenamiento. Al hacer que los empleados asuman la responsabilidad de las copias de seguridad, se mejora el nivel de seguridad de la empresa en general.
+              p.mb-0.ms-5 Es importante garantizar que cada empleado realice copias de seguridad adecuadas. Aunque el personal de TI puede respaldar la base de datos compartida, cada empleado debe respaldar sus propios datos en sus computadoras. Se deben proporcionar instrucciones precisas sobre el método y el destino de almacenamiento. Al hacer que los empleados asuman la responsabilidad de las copias de seguridad, se mejora el nivel de seguridad de la empresa en general.
           .row(titulo="La copia de seguridad puede tardar mucho tiempo")
             .col-12
-              p.mb-0 Si la cantidad de datos a respaldar es grande, llevará tiempo completar la copia de seguridad. Durante la copia de seguridad, es necesario restringir el acceso a dichos datos. Los tiempos de respaldo más prolongados pueden afectar negativamente las operaciones comerciales. Al realizar copias de seguridad de grandes cantidades de datos, es eficaz establecer copias de seguridad automáticas fuera del horario laboral, por la noche o en días festivos.
+              p.mb-0.ms-5 Si la cantidad de datos a respaldar es grande, llevará tiempo completar la copia de seguridad. Durante la copia de seguridad, es necesario restringir el acceso a dichos datos. Los tiempos de respaldo más prolongados pueden afectar negativamente las operaciones comerciales. Al realizar copias de seguridad de grandes cantidades de datos, es eficaz establecer copias de seguridad automáticas fuera del horario laboral, por la noche o en días festivos.
           .row(titulo="Preparar un sistema de gestión de datos de copia de seguridad")
             .col-12
-              p.mb-0 Además de realizar copias de seguridad periódicas, es crucial asegurarse de que los datos respaldados sean utilizables en caso de emergencia. Al restaurar los datos, es importante designar a un empleado responsable y tener un sistema de gestión efectivo. Sin embargo, es importante controlar el número de administradores para evitar confusiones sobre quién restauró los datos y cuándo. Construir un sistema adecuado de gestión es fundamental.
+              p.mb-0.ms-5 Además de realizar copias de seguridad periódicas, es crucial asegurarse de que los datos respaldados sean utilizables en caso de emergencia. Al restaurar los datos, es importante designar a un empleado responsable y tener un sistema de gestión efectivo. Sin embargo, es importante controlar el número de administradores para evitar confusiones sobre quién restauró los datos y cuándo. Construir un sistema adecuado de gestión es fundamental.
           .row(titulo="Gestione copias de seguridad periódicas de los datos de su empresa")
             .col-12
               p.mb-0 Es crucial gestionar correctamente los datos corporativos para proteger su confidencialidad y activos. Se debe realizar copias de seguridad de manera activa para salvaguardar la credibilidad de la empresa. Los datos y programas son activos valiosos, por lo que es necesario hacer copias de seguridad regularmente y administrarlos adecuadamente para evitar pérdidas en caso de daños o accidentes.
@@ -668,7 +651,6 @@
                 p #[b.txt-c1 Obstáculos físicos]
                 p.mb-0 Es una falla del dispositivo (principalmente del disco duro) donde se almacenan los datos, e incluye fallas, daños (choque, terremoto o colisión, incendio, inundación) y robo del propio dispositivo. Como contramedida, los datos deben almacenarse en una ubicación diferente y en un medio diferente.
     p(data-aos="fade-right") A modo genérico se puede decir, entonces, que las operaciones de copia de seguridad se determinan teniendo en cuenta el uso y la importancia de los datos a replicar, así como el costo de recuperación en el improbable caso de falla.
-    
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-down")
       p.mb-0 Adicional a esto, para la gestión de la operación, es necesario determinar el tipo de medio de almacenamiento, frecuencia y método, período de almacenamiento y lugar de almacenamiento, entre otros:
     .row.bg-c15

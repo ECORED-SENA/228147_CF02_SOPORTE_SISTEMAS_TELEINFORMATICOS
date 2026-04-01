@@ -28,7 +28,7 @@
       .col-lg-10
         .row.align-items-center.justify-content-center
           .col-md-8.col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 Recientemente, se han proporcionado varios servicios web y también se proporcionan muchos sistemas comerciales que son indispensables para las actividades de gestión. Muchos de estos servicios web cumplen con altos requisitos de seguridad y, en algunos casos, las medidas de seguridad pueden reforzarse simplemente usándolos.
+            p.mb-0 Recientemente, se han proporcionado varios servicios web y también se proporcionan muchos sistemas comerciales que son indispensables para las actividades de gestión. Muchos de estos servicios web cumplen con altos requisitos de seguridad y, en algunos casos, las medidas de seguridad pueden reforzarse simplemente usándolos.
           .col-xl-auto
             figure.fig-p1
               img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
@@ -98,7 +98,6 @@
               .col-lg-6
                 p #[b.txt-c1 Formular una política de seguridad de la información]
                 p.mb-0 La política de seguridad de la información se refiere a las políticas en la gestión de la información. Al establecer una política de seguridad de la información, las empresas podrán determinar la dirección de la gestión de la información y podrán establecer qué tipo de sistema se debe utilizar para la gestión de la información. Además, si la política básica está bien definida, incluso cuando se establecen reglas para el manejo de la información, las reglas se pueden seleccionar en función del juicio de "si se ajustan o no a la política", por lo que es posible establecer reglas consistentes que puede construir un sistema de gestión de la información que tenga.
-
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -126,16 +125,16 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Revisión periódica del sistema de gestión")
             .col-12
-              p.mb-0 En el mundo de la seguridad de la información, todos los días surgen nuevos riesgos y amenazas. Por lo tanto, incluso si se establece un sistema de gestión una vez, no siempre se puede decir que es el mejor sistema. Por este motivo, es importante revisar periódicamente el sistema y realizar los cambios necesarios. En particular, es necesario realizar modificaciones, como agregar contramedidas apropiadas contra cosas que se pueden prevenir de antemano, como ataques cibernéticos y virus informáticos.
+              p.mb-0.ms-5 En el mundo de la seguridad de la información, todos los días surgen nuevos riesgos y amenazas. Por lo tanto, incluso si se establece un sistema de gestión una vez, no siempre se puede decir que es el mejor sistema. Por este motivo, es importante revisar periódicamente el sistema y realizar los cambios necesarios. En particular, es necesario realizar modificaciones, como agregar contramedidas apropiadas contra cosas que se pueden prevenir de antemano, como ataques cibernéticos y virus informáticos.
           .row(titulo="La operación es más importante que la implementación de herramientas")
             .col-12
-              p.mb-0 Las herramientas pueden centralizar la información interna, por lo que la introducción de herramientas es fundamental para la gestión de la información. Sin embargo, no se puede decir que la gestión de la información se esté realizando correctamente sólo porque se haya implantado una herramienta. En particular, cuando la gestión de la información no va bien, hay muchos casos en los que solo se han introducido herramientas. Por lo tanto, para utilizar correctamente las herramientas y garantizar una gestión completa de la información dentro de la empresa, es necesario comprender las precauciones y los puntos de minuciosidad que se han introducido hasta ahora y construir un sistema de gestión de la información.
+              p.mb-0.ms-5 Las herramientas pueden centralizar la información interna, por lo que la introducción de herramientas es fundamental para la gestión de la información. Sin embargo, no se puede decir que la gestión de la información se esté realizando correctamente sólo porque se haya implantado una herramienta. En particular, cuando la gestión de la información no va bien, hay muchos casos en los que solo se han introducido herramientas. Por lo tanto, para utilizar correctamente las herramientas y garantizar una gestión completa de la información dentro de la empresa, es necesario comprender las precauciones y los puntos de minuciosidad que se han introducido hasta ahora y construir un sistema de gestión de la información.
           .row(titulo="Compendio de herramientas")
             .col-12
-              p.mb-0 La elección de herramientas de TI para la gestión de información es crucial, considerando factores como la accesibilidad, seguridad y facilidad de uso. La gestión de información no debe ser responsabilidad de unos pocos empleados, sino accesible para todos. Además, al utilizar servicios en la nube, se deben evaluar cuidadosamente las medidas de seguridad y la administración de datos. Introducir una herramienta como "Stock" facilita el intercambio de información y cumple con altos estándares de seguridad.
+              p.mb-0.ms-5 La elección de herramientas de TI para la gestión de información es crucial, considerando factores como la accesibilidad, seguridad y facilidad de uso. La gestión de información no debe ser responsabilidad de unos pocos empleados, sino accesible para todos. Además, al utilizar servicios en la nube, se deben evaluar cuidadosamente las medidas de seguridad y la administración de datos. Introducir una herramienta como "Stock" facilita el intercambio de información y cumple con altos estándares de seguridad.
           .row(titulo="Elija herramientas que aseguren la accesibilidad")
             .col-12
-              p.mb-0 Las herramientas de gestión de la información pueden reformularse como herramientas de comunicación entre quienes tienen información y quienes la buscan. Por lo tanto, al considerar la introducción de herramientas, es esencial tener en cuenta la accesibilidad para sus propios miembros. ¿Qué tipo de <i>lead</i> y qué tipo de capacidad de búsqueda se debe preparar para que los miembros de la empresa puedan acceder a la información que desean? Si introduce una herramienta de gestión de información sin esta perspectiva, no conducirá a la operación deseada. Las herramientas de gestión de la información incluyen herramientas de comunicación de preguntas y respuestas, como los sistemas de preguntas frecuentes.
+              p.mb-0.ms-5 Las herramientas de gestión de la información pueden reformularse como herramientas de comunicación entre quienes tienen información y quienes la buscan. Por lo tanto, al considerar la introducción de herramientas, es esencial tener en cuenta la accesibilidad para sus propios miembros. ¿Qué tipo de <i>lead</i> y qué tipo de capacidad de búsqueda se debe preparar para que los miembros de la empresa puedan acceder a la información que desean? Si introduce una herramienta de gestión de información sin esta perspectiva, no conducirá a la operación deseada. Las herramientas de gestión de la información incluyen herramientas de comunicación de preguntas y respuestas, como los sistemas de preguntas frecuentes.
     Separador
     #t_2_1
     .titulo-segundo.color-acento-botones
@@ -233,18 +232,16 @@
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-acento-botones.p-4.mb-3
           p.mb-0 Una forma de identificar los activos de información es visualizar el flujo de negocios antes de hacerlo. Al verificar la lista de activos de información enumerados anteriormente de acuerdo con el trabajo real, se reducirá la posibilidad de identificar activos de información importantes.
-        p.mb-0 Sin embargo, esto no significa que todos los activos de información deban ser identificados. Dado que los activos de información en poder de la organización cambian a diario, por tanto se recogen los activos de información que deben protegerse en la actualidad. Se recomienda verificar el flujo comercial antes de continuar. Ahora, si es difícil ordenar los activos de información, se debe pensar en el impacto en la organización si los activos de información se filtran, falsifican o pierden. Si tiene un impacto negativo en su organización, hay que agregarlo a la lista. Posteriormente, se clasifica la información desde el punto de vista vulnerabilidad de su naturaleza.
+        p.mb-0 Sin embargo, esto no significa que todos los activos de información deban ser identificados. Dado que los activos de información en poder de la organización cambian a diario, por tanto se recogen los activos de información que deben protegerse en la actualidad. Se recomienda verificar el flujo comercial antes de continuar. Ahora, si es difícil ordenar los activos de información, se debe pensar en el impacto en la organización si los activos de información se filtran, falsifican o pierden. Si tiene un impacto negativo en su organización, hay que agregarlo a la lista. Posteriormente, se clasifica la información desde el punto de vista de la vulnerabilidad de su naturaleza.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img16.svg', style="width: 350px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") Algunos ejemplos de elementos de gestión, en el libro de mayor gestión de activos de información, son:
-    
     .row.bg-c14.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-11.mt-3
           .titulo-sexto.color-acento-botones.mb-3(data-aos="fade-right")
             p.mb-0 #[b Figura 6]. Ejemplos de elementos de gestión
-
       .col-12
         .p-5
           figure(data-aos="fade-down")
@@ -255,13 +252,13 @@
           img(src='@/assets/curso/tema2/img12.png', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-3
-          p.mb-0 Luego de clasificarlos, se categorizan por su valor: alto valor o bajo valor. Un ejemplo de alto valor son aquellos activos que pueden llegar a ser una pérdida significativa empresarial al no involucrarles en un plan de gestión. Por otro lado, los informes trimestrales y la información publicada en páginas web, por ejemplo, son activos de bajo valor.
+          p.mb-0 Luego de clasificarlos, se categorizan por su valor: alto valor o bajo valor. Un ejemplo de alto valor son aquellos activos que pueden llegar a ser una pérdida significativa empresarial al no involucrarlos en un plan de gestión. Por otro lado, los informes trimestrales y la información publicada en páginas web, por ejemplo, son activos de bajo valor.
         p.mb-0 Después, la información categorizada como información valiosa se etiqueta aún más y se crean criterios de evaluación para esta. Por ejemplo, hay información con valor económico, información que seguramente causará pérdida en caso de fuga de información, información que puede reducir la credibilidad social e información personal. Se divide, entonces, la información en categorías y se clasifican según su importancia, estableciendo indicadores como la confidencialidad y el secreto. Al clasificar, se puede configurar medidas de seguridad que coincidan con cada requerimiento. Además, al usar información, será posible usarla de manera efectiva de acuerdo con el rango.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .row.align-items-center.justify-content-center
           .col-md-8.col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 Es necesario identificar vulnerabilidades y amenazas para cada activo de información clasificado. Por ejemplo, se puede decir que un estado en el que "cualquiera puede acceder a información altamente confidencial" es un estado de alto riesgo porque no se han implementado medidas de seguridad de la información.
+            p.mb-0 Es necesario identificar vulnerabilidades y amenazas para cada activo de información clasificado. Por ejemplo, se puede decir que un estado en el que "cualquiera puede acceder a información altamente confidencial" es un estado de alto riesgo porque no se han implementado medidas de seguridad de la información.
           .col-xl-auto
             figure.fig-p1
               img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
@@ -279,7 +276,6 @@
         .p-5
           .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
             p.mb-0 #[b Tabla 1.] Ejemplo de evaluación del valor de un activo de información
-
       .row.justify-content-center.align-items-center
         .col-lg-10    
           .tabla-a.color-primario
@@ -289,7 +285,6 @@
                   th.p-4(style="width:30%") Clasificación de importancia
                   th.p-4(style="width:45%") Criterios de juicio
                   th.p-4(style="width:25%") Arrasamiento
-                  
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Confidencialidad (accesible solo para aquellos que otorgan acceso)</td>
@@ -304,7 +299,6 @@
                 tr
                   td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión.
                   td Divulgación general
-                  
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Integridad (la información y los sistemas de información son precisos y completos)</td>
@@ -319,7 +313,6 @@
                 tr
                   td.p-4 1 Si es falsificado, no tiene impacto en el negocio en cuestión.
                   td -
-
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Disponibilidad (los beneficiarios de acceso pueden acceder a los activos de información cuando sea necesario)</td>
@@ -331,8 +324,6 @@
                 tr
                   td.p-4 2 En el caso de suspensión de uso, casi no hay impacto en el negocio afectado.
                   td -
- 
-    
     p.mb-5(data-aos="fade-right") La mayoría de los incidentes de violación de datos se dividen en tres categorías:
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down")
       SlyderA(tipo="b")
@@ -389,23 +380,21 @@
           .col-12.p-4.bg-white
             p.mb-0 Para mantener la disponibilidad de los activos de información dentro de una empresa u organización, es necesario contar con copias de seguridad adecuadas de la información que se posee. Se requiere que el personal de administración de la información tenga operaciones de respaldo que puedan recuperarse rápidamente de fallas de la computadora o de la red, errores de operación del sistema, etc., con el menor impacto posible en el negocio.
         p.mb-0 En una empresa u organización, hay dos cosas principales que el personal de gestión de la información debe hacer para respaldar la información. La primera es una copia de seguridad de datos compartidos y la otra es una copia de seguridad de datos individuales.
-
     p.mb-5(data-aos="fade-right") Sumado a esto, también es una buena idea describir claramente el método y la frecuencia de las copias de seguridad como reglas internas en la política de seguridad de la información. A continuación, se describen estos aspectos:
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Copia de seguridad del servidor")
             .col-12
-              p.mb-0 El personal de gestión de la información es responsable de realizar copias de seguridad de los datos compartidos almacenados en servidores de bases de datos y servidores de archivos. Normalmente, los datos en el servidor se respaldan en medios de cinta como DAT, DLT y AIT. Para ejecutar una copia de seguridad, utilice la utilidad de copia de seguridad proporcionada con el sistema operativo o una herramienta de copia de seguridad dedicada. Las copias de seguridad del servidor se realizan tarde en la noche o temprano en la mañana cuando los usuarios no están operando, utilizando las funciones de programación del sistema operativo y las herramientas de copia de seguridad.
+              p.mb-0.ms-5 El personal de gestión de la información es responsable de realizar copias de seguridad de los datos compartidos almacenados en servidores de bases de datos y servidores de archivos. Normalmente, los datos en el servidor se respaldan en medios de cinta como DAT, DLT y AIT. Para ejecutar una copia de seguridad, utilice la utilidad de copia de seguridad proporcionada con el sistema operativo o una herramienta de copia de seguridad dedicada. Las copias de seguridad del servidor se realizan tarde en la noche o temprano en la mañana cuando los usuarios no están operando, utilizando las funciones de programación del sistema operativo y las herramientas de copia de seguridad.
           .row(titulo="Instrucciones de copia de seguridad")
             .col-12
-              p Los datos que los empleados y el personal almacenan también son activos de información importantes. Por lo tanto, se debe indicar a los usuarios de su organización que realicen una copia de seguridad de la información almacenada. Al hacerlo, se deben comprender correctamente el destino de almacenamiento de la copia de seguridad (medios, servidor de copia de seguridad, etc.), las herramientas y los métodos de copia de seguridad utilizados, la frecuencia de las copias de seguridad, etc., y proporcionar consejos y métodos. Se tiene que ser específico.
-              p.mb-0 Tenga en cuenta que si los usuarios utilizan medios de almacenamiento externo para la copia de seguridad, se aumenta la posibilidad de fuga de información confidencial o personal debido a la eliminación de datos. Si se recomiendan medios de almacenamiento externo para la copia de seguridad, también es importante implementar minuciosamente reglas para la gestión de la información, como prohibir la eliminación innecesaria de datos y estipular ubicaciones de almacenamiento, en una política de seguridad de la información.
+              p.ms-5 Los datos que los empleados y el personal almacenan también son activos de información importantes. Por lo tanto, se debe indicar a los usuarios de su organización que realicen una copia de seguridad de la información almacenada. Al hacerlo, se deben comprender correctamente el destino de almacenamiento de la copia de seguridad (medios, servidor de copia de seguridad, etc.), las herramientas y los métodos de copia de seguridad utilizados, la frecuencia de las copias de seguridad, etc., y proporcionar consejos y métodos. Se tiene que ser específico.
+              p.mb-0.ms-5 Tenga en cuenta que si los usuarios utilizan medios de almacenamiento externo para la copia de seguridad, se aumenta la posibilidad de fuga de información confidencial o personal debido a la eliminación de datos. Si se recomiendan medios de almacenamiento externo para la copia de seguridad, también es importante implementar minuciosamente reglas para la gestión de la información, como prohibir la eliminación innecesaria de datos y estipular ubicaciones de almacenamiento, en una política de seguridad de la información.
           .row(titulo="Administrar activos")
             .col-12
-              p Para proteger los activos de información, es fundamental garantizar la confidencialidad, integridad y disponibilidad:
-
-              ul.lista-ul.mb-0
+              p.ms-5 Para proteger los activos de información, es fundamental garantizar la confidencialidad, integridad y disponibilidad:
+              ul.lista-ul.mb-0.ms-5
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #4ADBD1")
                   p.mb-0 #[b Confidencialidad]: restringir el acceso no autorizado a la información.
@@ -415,14 +404,13 @@
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #4ADBD1")
                   p.mb-0 #[b Disponibilidad]: asegurar que los servicios de información estén siempre disponibles.
-
-              p.mb-0 La gestión y mantenimiento de los activos de información son acciones clave para la seguridad. Es importante considerar las características de los activos y equilibrar confidencialidad, integridad y disponibilidad.
+              p.mb-0.ms-5 La gestión y mantenimiento de los activos de información son acciones clave para la seguridad. Es importante considerar las características de los activos y equilibrar confidencialidad, integridad y disponibilidad.
           .row(titulo="Clasificaciones para los activos de información")
             .col-12
-              p.mb-0 Los activos se clasifican según la importancia de la información y se determinan los métodos de gestión. Por ejemplo, mientras que la información personal y la información técnica se gestionan estrictamente, la información publicada en la Web no requiere el mismo grado de gestión estricta que la información personal y la información técnica. La clasificación de los activos de información funciona como una etiqueta para determinar el grado y método de gestión de la información con el mismo valor e importancia.
+              p.mb-0.ms-5 Los activos se clasifican según la importancia de la información y se determinan los métodos de gestión. Por ejemplo, mientras que la información personal y la información técnica se gestionan estrictamente, la información publicada en la Web no requiere el mismo grado de gestión estricta que la información personal y la información técnica. La clasificación de los activos de información funciona como una etiqueta para determinar el grado y método de gestión de la información con el mismo valor e importancia.
           .row(titulo="Identificar activos de información")
             .col-12
-              p.mb-0 Tener personal comercial que identifique los activos de información tiene la ventaja de que, a diferencia de la identificación centralizada, se pueden evitar las omisiones porque se usa en las operaciones normales y es eficiente. Por ejemplo, para la base de datos maestra de clientes (base de datos), averigüe cuál de los siguientes es el lugar de uso, cuál es la forma de almacenamiento, dónde está el lugar de almacenamiento y cuál es el grado de importancia. Luego, se resume cada departamento en un archivo de Excel y se envía a la persona a cargo de la seguridad de la información para que pueda comprender los activos de información en general.
+              p.mb-0.ms-5 Tener personal comercial que identifique los activos de información tiene la ventaja de que, a diferencia de la identificación centralizada, se pueden evitar las omisiones porque se usa en las operaciones normales y es eficiente. Por ejemplo, para la base de datos maestra de clientes (base de datos), averigüe cuál de los siguientes es el lugar de uso, cuál es la forma de almacenamiento, dónde está el lugar de almacenamiento y cuál es el grado de importancia. Luego, se resume cada departamento en un archivo de Excel y se envía a la persona a cargo de la seguridad de la información para que pueda comprender los activos de información en general.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img21.svg', style="width: 400px", alt='Imágen decorativa').m-auto
@@ -432,7 +420,6 @@
         .p-5
           .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
             p.mb-0 #[b Tabla 2.] Ejemplo de lo elementos en un libro mayor
-
       .row.justify-content-center.align-items-center    
         .col-lg-10
           .tabla-a.color-primario
@@ -441,7 +428,6 @@
                 tr(style='background:#E8E8E8')
                   td.text-bold Nombre del recurso de información
                   td Datos del sistema de nómina, copia de factura, datos de correo electrónico, lista de empleados, contrato de pedido, etc.
-                  
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   td Rango de uso
@@ -465,19 +451,16 @@
                   td Presencia o ausencia de información de mi Número
                   td <p>Presencia o ausencia</p>
                 tr
-                  td Valor de la evaluación (confidencialidad/integridad/disponibilidad)/importancia
+                  td Valor de la evaluación (confidencialidad / integridad / disponibilidad) / importancia
                   td <p>Valor de evaluación: Ingrese cada valor de evaluación para confidencialidad, integridad y disponibilidad Importancia:
                     br
                     | Ingrese el valor más alto entre confidencialidad, integridad y disponibilidad</p>
-
                 tr
                   td Periodo de retención
                   td <p>De acuerdo con las normas internas de la empresa/organización, como las normas de almacenamiento de documentos.</p>
                 tr
                   td Fecha de registro (fecha de renovación)
                   td <p>AAMMDD</p>
-
-
     Separador
     #t_2_2
     .titulo-segundo.color-acento-botones
@@ -534,7 +517,6 @@
           img(src='@/assets/curso/tema2/img27.svg', style="width: 50px", alt='Imágen decorativa').m-auto
       .col
         p.mb-0 Las métricas presentadas en el vacío rara vez son procesables. ¿Qué significa, por ejemplo, que sus cortafuegos hayan detenido 1.500 intrusiones este mes? ¿Es eso mucho o poco?
-
     p.mb-5(data-aos="fade-right") Un informe de ciberseguridad basado en el riesgo ofrece hallazgos en contexto, lo que ayuda al destinatario a comprender qué papel juega un número en el panorama general de riesgos de la organización. Ese contexto puede incluir:
     .row.bg-c23
       .col-12
@@ -631,7 +613,7 @@
             figure.fig-p2
               img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 El resumen ejecutivo de su informe de ciberseguridad es solo eso: ¡Un resumen! No se llena de explicaciones técnicas; para eso está el cuerpo del informe (e incluso entonces, debe mantener sus divagaciones técnicas restringidas). Su informe ejecutivo debe adaptarse a las expectativas del equipo de liderazgo, y la mayoría de ellos no quieren jerga técnica. El resumen ejecutivo debe resumir sucintamente los esfuerzos de su programa de seguridad y abordar todas las preocupaciones de seguridad de alto nivel del equipo de liderazgo.
+            p.mb-0 El resumen ejecutivo de su informe de ciberseguridad es solo eso: ¡Un resumen! No se llena de explicaciones técnicas; para eso está el cuerpo del informe (e incluso entonces, debe mantener sus divagaciones técnicas restringidas). Su informe ejecutivo debe adaptarse a las expectativas del equipo de liderazgo, y la mayoría de ellos no quieren jerga técnica. El resumen ejecutivo debe resumir sucintamente los esfuerzos de su programa de seguridad y abordar todas las preocupaciones de seguridad de alto nivel del equipo de liderazgo.
     p.mb-5(data-aos="fade-right") Un resumen ejecutivo debe estar compuesto por los siguientes encabezados:
     .row.justify-content-center.mb-5
       .col-lg-auto.mb-5.mb-lg-0(data-aos="fade-right")
@@ -749,7 +731,6 @@
                     p.txt-c1 #[b Recomendaciones de remediación]
                     p Esta sección final debe resumir los procesos de remediación necesarios para abordar los riesgos emergentes mencionados en la sección anterior. Si estas iniciativas de remediación requieren una inversión adicional, incluya sus costos aproximados. Justifique el ROI de sus solicitudes de inversión asignándolas a los costos de daños potenciales de los riesgos cibernéticos que abordarán.
                     p Los elementos gráficos y los cuadros representan los KPI de ciberseguridad que más importan a los ejecutivos, con gráficos y elementos visuales que hacen que sus esfuerzos de seguridad sean más fáciles de comprender y apreciar.
-                    
     .row.bg-c1(data-aos="fade-down")
       .col-12
         .p-5
@@ -771,24 +752,21 @@
       .col-12.mb-5(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
           p.mb-0 Un informe valioso de ciberseguridad es aquel que realmente brinda a los ejecutivos información útil. Por lo tanto, el proceso de creación de un informe de ciberseguridad efectivo debe comenzar con una comprensión clara de los requisitos de información clave de los equipos ejecutivos. Para comprender la mentalidad de un ejecutivo, estas son las principales preocupaciones y atributos de un equipo de liderazgo típico compuesto por miembros de la junta, partes interesadas y ejecutivos de C-Suite:
-
       .col-12(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="El equipo de liderazgo no quiere ver a la empresa en un titular de noticias")
             .col-12
-              p.mb-0 Tras el ataque a #[i SolarWinds], los ejecutivos están preocupados por los riesgos de seguridad informática y las violaciones de datos. Quieren respuestas claras sobre el riesgo de filtración de datos, las vulnerabilidades, el plan de respuesta a incidentes, los incidentes recientes, las estrategias de mitigación de riesgos, la defensa contra #[i ransomware] y la comparación de los esfuerzos de seguridad con los estándares de la industria. El informe debe incluir un resumen de las amenazas emergentes y las tendencias de ataque, evitando detalles técnicos innecesarios.
+              p.mb-0.ms-5 Tras el ataque a #[i SolarWinds], los ejecutivos están preocupados por los riesgos de seguridad informática y las violaciones de datos. Quieren respuestas claras sobre el riesgo de filtración de datos, las vulnerabilidades, el plan de respuesta a incidentes, los incidentes recientes, las estrategias de mitigación de riesgos, la defensa contra #[i ransomware] y la comparación de los esfuerzos de seguridad con los estándares de la industria. El informe debe incluir un resumen de las amenazas emergentes y las tendencias de ataque, evitando detalles técnicos innecesarios.
           .row(titulo="Resultados del análisis de vulnerabilidades")
             .col-12
-              p.mb-0 Resultados del análisis de vulnerabilidades que muestran desviaciones en la calificación de seguridad durante un período determinado, desviaciones de calificación de seguridad a lo largo del tiempo por parte del reportaje de un ejecutivo generado en la plataforma.
+              p.mb-0.ms-5 Resultados del análisis de vulnerabilidades que muestran desviaciones en la calificación de seguridad durante un período determinado, desviaciones de calificación de seguridad a lo largo del tiempo por parte del reportaje de un ejecutivo generado en la plataforma.
           .row(titulo="Desglose del riesgo de seguridad por categoría")
             .col-12
-              p.mb-0 Un desglose del riesgo de seguridad en todas las categorías de amenazas principales dentro del ecosistema de la empresa, categorizado por grado de criticidad y desglose de riesgos por categoría; una característica de un informe ejecutivo generado.
+              p.mb-0.ms-5 Un desglose del riesgo de seguridad en todas las categorías de amenazas principales dentro del ecosistema de la empresa, categorizado por grado de criticidad y desglose de riesgos por categoría; una característica de un informe ejecutivo generado.
           .row(titulo="Amenaza de infracciones de terceros")
             .col-12
-              p.mb-0 Los riesgos de seguridad de terceros han sido la causa principal de filtraciones de datos. Los ejecutivos están cada vez más preocupados por estos riesgos y buscan respuestas sobre la gestión de riesgos de proveedores en informes de seguridad cibernética. Es importante comprender la distribución de los riesgos de terceros según su criticidad y priorizarlos según el apetito de riesgo predefinido. Los riesgos residuales siempre estarán presentes y deben ser abordados adecuadamente.
-
+              p.mb-0.ms-5 Los riesgos de seguridad de terceros han sido la causa principal de filtraciones de datos. Los ejecutivos están cada vez más preocupados por estos riesgos y buscan respuestas sobre la gestión de riesgos de proveedores en informes de seguridad cibernética. Es importante comprender la distribución de los riesgos de terceros según su criticidad y priorizarlos según el apetito de riesgo predefinido. Los riesgos residuales siempre estarán presentes y deben ser abordados adecuadamente.
         p.mb-0 El equipo de liderazgo, entonces, establece las expectativas de seguridad para la empresa y el CISO (Director de seguridad de la Información) tiene la tarea de garantizar que el programa de ciberseguridad cumpla con estas expectativas. El desempeño de un programa de seguridad cibernética se resume de manera más eficiente con una evaluación de las métricas de seguridad clave. Estas métricas deben alinearse con la estrategia de gestión de riesgos empresariales que está implementando el CISO. Esta lista de métricas aún podría ser más exhaustiva de lo que prefiere la junta. Si este es el caso, las siguientes preguntas lo ayudarán a filtrar las métricas de seguridad más significativas:
-
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure

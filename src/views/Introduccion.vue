@@ -2,7 +2,6 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
@@ -17,7 +16,7 @@
     figure(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/e5qt6pPkGbg" title="La gestión de riesgos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+
 </template>
 
 <script>
@@ -26,6 +25,14 @@ export default {
   data: () => ({
     // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

@@ -130,60 +130,33 @@ export default {
   },
   complementario: [
     {
-      tema: '1. Seguridad informática en la organización',
-      referencia:
-        'Cardador Cabello, A. L. (2018). <i>Ciberseguridad para Usuarios IFCT135PO</i>. IC Editorial.',
-      tipo: 'Libro',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000106036',
+      tema: 'Computación en la nube',
+      referencia: 'Microsoft. (2023). <i>Azure security documentation</i>.',
+      tipo: 'Artículo',
+      link: 'https://learn.microsoft.com/en-us/azure/security/',
     },
     {
-      tema: '1.3. Procesos de mejora para el tratamiento de la información',
+      tema: 'Gobierno y gestión de TI',
       referencia:
-        'Villalobos-Murillo, J. (2008). <i>Vulnerabilidad de sistemas gestores de bases de datos</i>. Uniciencia, 22 (1-2), p. 131-134',
+        'ISACA. (2012). COBIT 5: <i>A business framework for the governance and management of enterprise IT</i>.',
+      tipo: 'Artículo',
+      link: 'https://www.isaca.org/resources/cobit',
+    },
+    {
+      tema: 'Gestión de un sistema de información',
+      referencia:
+        'Galindo Higuera, D. A., & Leguizamón López, E. M. (2017). <i>Revisión de mejores prácticas de gestión para sistemas de información en Colombia</i>.',
       tipo: 'Artículo',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_dialnet_primary_oai_dialnet_unirioja_es_ART0000922259',
+        'https://repository.universidadean.edu.co/server/api/core/bitstreams/9c83e3be-2181-4bb9-8ff5-a55088079700/content',
     },
     {
-      tema: '1.3. Procesos de mejora para el tratamiento de la información',
+      tema: 'Sistemas de información en entidades públicas',
       referencia:
-        'Rascagneres, P. (2020). <i>Seguridad informática y malwares: análisis de amenazas e implementación de contramedidas</i>. (3ª ed.) Barcelona: Ediciones ENI.',
-      tipo: 'Libro',
+        'Manrique Salas, E. M., Maestre Góngora, G. P., & Osorio Sanabria, M. A. (2016). <i>Caracterización de buenas prácticas para gestión de sistemas de información en entidades públicas colombianas</i>.',
+      tipo: 'Artículo',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3MAL',
-    },
-    {
-      tema: '1.4. Gestión de copias de seguridad',
-      referencia:
-        'Païola, P. (2021). <i>Microsoft Azure: Gestione su Sistema de Información en la Nube</i>. Barcelona: Ediciones ENI.',
-      tipo: 'Libro',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3AZWIN',
-    },
-    {
-      tema: '2. Gestión de la información',
-      referencia:
-        'Balseca Chávez, F., Colina Vargas, A. & Espinoza Mina, M. A. (2021). <i>Identificación de amenazas informáticas aplicando arquitecturas de Big Data</i>. INNOVA Research Journal, 6(3).',
-      tipo: 'Libro',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_dialnet_primary_oai_dialnet_unirioja_es_ART0001502522',
-    },
-    {
-      tema: '2. Gestión de la información',
-      referencia:
-        'Piattini Velthius, M. & Ruiz González, F. (2021). <i>Gobierno y gestión de las tecnologías y los sistemas de información</i>. Bogotá Ediciones de la U.',
-      tipo: 'Libro',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_ebooks00029',
-    },
-    {
-      tema: '2. Gestión de la información',
-      referencia:
-        'Poggioli, J. & Demasson, J. (2021). <i>Gestión de un sistema de información: método y buenas prácticas</i>. Barcelona: Ediciones ENI',
-      tipo: 'Libro',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniDPT2PILSI',
+        'https://www.academia.edu/78947981/Caracterización_de_buenas_prácticas_para_gestión_de_sistemas_de_información_en_entidades_públicas_colombianas',
     },
   ],
   glosario: [

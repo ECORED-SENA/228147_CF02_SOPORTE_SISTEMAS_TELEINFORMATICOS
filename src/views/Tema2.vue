@@ -54,7 +54,7 @@
         .row.bg-c8.p-4.m-1
           .col-lg-8.mb-4.mb-md-0
             p.txt-c1 #[b Mantener la imagen de la marca]
-            p La gestión inadecuada de la información puede conducir fácilmente a la pérdida o fuga de información; y si este escenario llegase a ocurrir, el hecho debe anunciarse al público y, es muy probable e inevitable, un deterioro de la imagen de marca de la empresa. Motivo por el cual será necesario tomar medidas encaminadas a mejorar el posicionamiento de la marca, lo que a su vez no solo aumentan los costos, sino que también es posible que no se puedan obtener nuevas transacciones y las ya comprometidas pueden quedar en blanco.
+            p La gestión inadecuada de la información puede conducir fácilmente a la pérdida o fuga de información; y si este escenario llegase a ocurrir, el hecho debe anunciarse al público y, es muy probable e inevitable, un deterioro de la imagen de marca de la empresa. Motivo por el cual será necesario tomar medidas encaminadas a mejorar el posicionamiento de la marca, lo que a su vez no solo aumenta los costos, sino que también es posible que no se puedan obtener nuevas transacciones y las ya comprometidas pueden quedar en blanco.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img3.svg', style="width:350px", alt='Imágen decorativa').m-auto
@@ -115,8 +115,8 @@
                   img(src='@/assets/curso/tema2/img8.png', style="width: 500px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Determinar reglas para la gestión de la información]
-                p.mb-0 A la hora de gestionar la información, también es importante evitar los errores de los empleados. Para evitar errores humanos causados por los empleados, es importante establecer reglas detalladas para la gestión. Si las reglas se establecen correctamente de antemano, incluso los empleados con poca alfabetización informática podrán manejar la información sin cometer errores. Por ejemplo, establezcamos reglas detalladas según el nivel del sitio, como; No instalar <i>software</i> sin permiso.
-    p.mb-5(data-aos="fade-down") Ahora bien, si la gestión de la información de una empresa no está funcionando como se esperaba, hay que verificar si alguna de las siguientes situaciones se aplica y por ende se efectúa sus respectivas mejoras:
+                p.mb-0 A la hora de gestionar la información, también es importante evitar los errores de los empleados. Para evitar errores humanos causados por los empleados, es importante establecer reglas detalladas para la gestión. Si las reglas se establecen correctamente de antemano, incluso los empleados con poca alfabetización informática podrán manejar la información sin cometer errores. Por ejemplo, establezcamos reglas detalladas según el nivel del sitio, como: no instalar <i>software</i> sin permiso.
+    p.mb-5(data-aos="fade-down") Ahora bien, si la gestión de la información de una empresa no está funcionando como se esperaba, hay que verificar si alguna de las siguientes situaciones se aplica y por ende, se efectúa sus respectivas mejoras:
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -288,41 +288,42 @@
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Confidencialidad (accesible solo para aquellos que otorgan acceso)</td>
-                  td.p-4 4 Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
-                  td Ultra secreto
+                  td.p-4 1. Si se filtra, no hay impacto en el negocio en cuestión.
+                  td Divulgación general
                 tr
-                  td.p-4 3 En caso de fuga, el impacto en el negocio en cuestión es grande.
-                  td Secretaria extranjera
-                tr
-                  td.p-4 2 La fuga tendría poco impacto en el negocio en cuestión.
+                  td.p-4 2. La fuga tendría poco impacto en el negocio en cuestión.
                   td Secreto
                 tr
-                  td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión.
-                  td Divulgación general
+                  td.p-4 3. En caso de fuga, el impacto en el negocio en cuestión es grande.
+                  td Secretaria extranjera
+                tr
+                  td.p-4 4. Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
+                  td Ultra secreto
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Integridad (la información y los sistemas de información son precisos y completos)</td>
-                  td.p-4 4 Si se manipula, tendrá un gran impacto en los socios comerciales y clientes. O tiene un impacto serio en la gestión.
+                  td.p-4 1. Si es falsificado, no tiene impacto en el negocio en cuestión.
                   td -
                 tr
-                  td.p-4 3 Si se manipula, el impacto en el negocio en cuestión es grande.
+                  td.p-4 2. La falsificación tendría poco impacto en el negocio en cuestión.
                   td -
                 tr
-                  td.p-4 2 La falsificación tendría poco impacto en el negocio en cuestión.
+                  td.p-4 3. Si se manipula, el impacto en el negocio en cuestión es grande.
                   td -
                 tr
-                  td.p-4 1 Si es falsificado, no tiene impacto en el negocio en cuestión.
+                  td.p-4 4. Si se manipula, tendrá un gran impacto en los socios comerciales y clientes. O tiene un impacto serio en la gestión.
                   td -
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Disponibilidad (los beneficiarios de acceso pueden acceder a los activos de información cuando sea necesario)</td>
-                  td.p-4 4 La suspensión del uso tendrá un gran impacto en los socios comerciales y clientes. O tiene un impacto serio en la gestión.
+                  td.p-4 1. En el caso de suspensión de uso, casi no hay impacto en el negocio afectado.
                   td -
                 tr
-                  td.p-4 3 En el caso de suspensión de uso, el impacto en el negocio en cuestión es grande.
+                  td.p-4 2. En el caso de suspensión de uso, el impacto en el negocio en cuestión es grande.
                   td -
                 tr
-                  td.p-4 2 En el caso de suspensión de uso, casi no hay impacto en el negocio afectado.
+                  td.p-4 3. La suspensión del uso tendrá un gran impacto en los socios comerciales y clientes. O tiene un impacto serio en la gestión.
+                  
                   td -
     p.mb-5(data-aos="fade-right") La mayoría de los incidentes de violación de datos se dividen en tres categorías:
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down")
@@ -407,7 +408,7 @@
               p.mb-0.ms-5 La gestión y mantenimiento de los activos de información son acciones clave para la seguridad. Es importante considerar las características de los activos y equilibrar confidencialidad, integridad y disponibilidad.
           .row(titulo="Clasificaciones para los activos de información")
             .col-12
-              p.mb-0.ms-5 Los activos se clasifican según la importancia de la información y se determinan los métodos de gestión. Por ejemplo, mientras que la información personal y la información técnica se gestionan estrictamente, la información publicada en la Web no requiere el mismo grado de gestión estricta que la información personal y la información técnica. La clasificación de los activos de información funciona como una etiqueta para determinar el grado y método de gestión de la información con el mismo valor e importancia.
+              p.mb-0.ms-5 Los activos se clasifican según la importancia de la información y se determinan los métodos de gestión. Por ejemplo, mientras que la información personal y la información técnica se gestionan estrictamente, la información publicada en la web no requiere el mismo grado de gestión estricta que la información personal y la información técnica. La clasificación de los activos de información funciona como una etiqueta para determinar el grado y método de gestión de la información con el mismo valor e importancia.
           .row(titulo="Identificar activos de información")
             .col-12
               p.mb-0.ms-5 Tener personal comercial que identifique los activos de información tiene la ventaja de que, a diferencia de la identificación centralizada, se pueden evitar las omisiones porque se usa en las operaciones normales y es eficiente. Por ejemplo, para la base de datos maestra de clientes (base de datos), averigüe cuál de los siguientes es el lugar de uso, cuál es la forma de almacenamiento, dónde está el lugar de almacenamiento y cuál es el grado de importancia. Luego, se resume cada departamento en un archivo de Excel y se envía a la persona a cargo de la seguridad de la información para que pueda comprender los activos de información en general.
@@ -723,7 +724,7 @@
                 .row.align-items-center.justify-content-center
                   .col-12
                     p.txt-c1 #[b Resumen de ciberamenazas]
-                    p La sección anterior se centró en los incidentes cibernéticos que afectan su postura de seguridad, incluidos los iniciados por los ciberdelincuentes. Esta sección debe centrarse en las amenazas emergentes en su ecosistema, internamente y en toda la red de terceros. Describir los mecanismos utilizados para descubrir estas amenazas, es decir, evaluaciones de riesgo. Las amenazas cibernéticas también incluyen el incumplimiento de regulaciones de seguridad críticas como PCI DSS y HIPAA, especialmente para industrias altamente reguladas como la atención médica.
+                    p La sección anterior se centró en los incidentes cibernéticos que afectan su postura de seguridad, incluidos los iniciados por los ciberdelincuentes. Esta sección debe centrarse en las amenazas emergentes en su ecosistema, internamente y en toda la red de terceros. Describir los mecanismos utilizados para descubrir estas amenazas, es decir, evaluaciones de riesgo. Las amenazas cibernéticas también incluyen el incumplimiento de regulaciones de seguridad críticas como PCI DSS e HIPAA, especialmente para industrias altamente reguladas como la atención médica.
             .row.justify-content-center.m-1
               .col-11.bg-c8.p-4
                 .row.align-items-center.justify-content-center

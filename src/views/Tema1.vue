@@ -213,7 +213,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-6.mb-4.mb-lg-0
                 p #[b.txt-c1 Almacenamiento definido por #[i software]]
-                p.mb-0 El almacenamiento definido por <i>software</i> es un enfoque que se utiliza para administrar datos a través de la abstracción. Funciona extrayendo datos del almacenamiento físico organizado para uso en red. También funciona bien con contenedores y micro servicios que incluyen datos no estructurados.
+                p.mb-0 El almacenamiento definido por <i>software</i> es un enfoque que se utiliza para administrar datos a través de la abstracción. Funciona extrayendo datos del almacenamiento físico organizado para uso en red. También funciona bien con contenedores y microservicios que incluyen datos no estructurados.
               .col-lg-4
                 figure
                   img(src='@/assets/curso/tema1/img12.png', style="width: 300px", alt='Imágen decorativa').m-auto
@@ -338,7 +338,7 @@
                       img(src='@/assets/curso/tema1/img23.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                   .col-lg-8
                     p.txt-p1 #[b Preparación de datos]
-                    p.txt-p1.mb-0 Los datos recopilados entran en la etapa de preparación de datos. La preparación de datos, también conocida como “pre-procesamiento”, es la etapa en la que se limpian y organizan los datos sin procesar. Esto hace que los datos estén disponibles para etapas posteriores del procesamiento de datos. Durante la preparación, los datos sin procesar se verifican minuciosamente en busca de errores. El propósito de este paso es eliminar datos incorrectos (datos redundantes, incompletos o inexactos) y crear datos de alta calidad para una mejor inteligencia comercial.
+                    p.txt-p1.mb-0 Los datos recopilados entran en la etapa de preparación de datos. La preparación de datos, también conocida como “preprocesamiento”, es la etapa en la que se limpian y organizan los datos sin procesar. Esto hace que los datos estén disponibles para etapas posteriores del procesamiento de datos. Durante la preparación, los datos sin procesar se verifican minuciosamente en busca de errores. El propósito de este paso es eliminar datos incorrectos (datos redundantes, incompletos o inexactos) y crear datos de alta calidad para una mejor inteligencia comercial.
                 .row.align-items-center
                   .col-lg-8.mb-4.mb-lg-0
                     p #[b Entrada de datos]
@@ -572,7 +572,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-6.mb-4.mb-lg-0
                 p #[b.txt-c1 Almacenamiento externo]
-                p.mb-0 En el primer método de copia de seguridad, que utiliza medios de almacenamiento externos, se utilizan CD, DVD, Discos Duros, o <i>pendrive</i> como medios de almacenamiento. Dependiendo de la capacidad de almacenamiento, se suele utilizar la memoria <i>flash</i>. La capacidad de los medios de copia de seguridad ha crecido considerablemente. Es necesario tener un medio de almacenamiento adecuado y hacer copias de seguridad regularmente para proteger los datos. Utilizar un dispositivo externo facilita este proceso.
+                p.mb-0 En el primer método de copia de seguridad, que utiliza medios de almacenamiento externos, se utilizan CD, DVD, discos duros, o <i>pendrive</i> como medios de almacenamiento. Dependiendo de la capacidad de almacenamiento, se suele utilizar la memoria <i>flash</i>. La capacidad de los medios de copia de seguridad ha crecido considerablemente. Es necesario tener un medio de almacenamiento adecuado y hacer copias de seguridad regularmente para proteger los datos. Utilizar un dispositivo externo facilita este proceso.
               .col-lg-4
                 figure
                   img(src='@/assets/curso/tema1/img25.png', style="width: 300px", alt='Imágen decorativa').m-auto

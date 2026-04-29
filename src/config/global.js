@@ -249,7 +249,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del equipo',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -331,7 +331,7 @@ export default {
           nombre: 'Jhon Jairo Urueta Álvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
-            'Centro de gestión de mercados, Logística y Tecnologías de la información - Regional Distrito Capital',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
